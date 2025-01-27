@@ -1,0 +1,145 @@
+.content {
+    padding: 0;
+    margin: 120px 30px 0 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0;
+    min-width: 711px;
+    min-height: 456px;
+}
+
+.result__video-container {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 386px;
+}
+
+.result__video {
+    width: 100%;
+    height: 100%;
+}
+
+.search-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.search-form__label {
+    min-height: 27px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-form__textfield {
+    font-size: 18px;
+    font-family: FiraSans;
+    border: none;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    min-width: 225px;
+    height: 100%;
+    background-color: transparent;
+}
+
+.search-form__checkbox-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px
+}
+
+.search-form__pseudo-checkbox {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid #ffffff ;
+}
+
+.search-form__fieldset {
+    border: none;
+}
+
+.search-form__fieldset-title {
+    font-family: FiraSans;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 75px;
+}
+
+.search-form__submit-button {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    font-family: FiraSans;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 100%;
+    height: 60%;
+}
+
+.result__video-container .error {
+    width: 100%;
+    height: 100%;
+}
+
+.content__details {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.title {
+    margin-top: 15px;
+    line-height: 70px;
+}
+
+.title .content__accent {
+    line-height: 70px;
+    color: #545050;
+}
+
+.content__list-item {
+    min-width: 400px;
+    min-height: 103px;
+}
+
+.content__video-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content__video-card-thumbnail {
+    height: 103px;
+}
+
+.content__card-link {
+    text-decoration: none;
+}
+
+.content__video-card-title {
+    font-family: Oswald;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#000;
+}
+
+
