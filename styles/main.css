@@ -1,37 +1,57 @@
-.content {
-    padding: 0;
-    margin: 120px 30px 0 30px;
+.page {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 63% 32%;
     width: 100%;
-    gap: 30px;
+    padding: 30px;
+    gap: 25px;
 }
 
 .result {
-    display: flex;
-    flex-direction: column;
-    margin: 70px 0;
-    min-width: 711px;
-    min-height: 456px;
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    padding-right: 5px;
 }
 
 .result__video-container {
-    position: relative;
-    margin-top: 20px;
+    padding-top: 150px;
     width: 100%;
-    min-height: 386px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .result__video {
     width: 100%;
+}
+
+.content__details {
+    padding-top: 20px;
+    background-color: aqua;
+    width: 100%;
     height: 100%;
 }
 
-.search-form{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 40px;
+.content__video-card-thumbnail {
+    width: 100px;
+    height: 20px;
+}
+
+.title {
+    font-family: "Oswald";
+    font-size: 75px;
+    text-transform: uppercase;
+    line-height: 68px;
 }
 
 .search-form__label {
@@ -79,67 +99,21 @@
     margin-bottom: 5px;
 }
 
-.title {
-    font-family: Oswald;
-    text-transform: uppercase;
-    font-size: 75px;
-}
-
 .search-form__submit-button {
     color: #fff;
     background-color: #000;
     border: 1px solid #fff;
     font-family: FiraSans;
     font-size: 18px;
-    margin-top: 20px;
-    width: 100%;
-    height: 60%;
+    margin-top: 18px;
+    width: 195px;
+    height: 35px;
 }
 
-.result__video-container .error {
-    width: 100%;
+.content__list-container {
     height: 100%;
 }
 
-.content__details {
-    display: flex;
-    flex-direction: column;
-    gap:20px;
+.content__list {
+    overflow-y: scroll;
 }
-
-.title {
-    margin-top: 15px;
-    line-height: 70px;
-}
-
-.title .content__accent {
-    line-height: 70px;
-    color: #545050;
-}
-
-.content__list-item {
-    min-width: 400px;
-    min-height: 103px;
-}
-
-.content__video-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.content__video-card-thumbnail {
-    height: 103px;
-}
-
-.content__card-link {
-    text-decoration: none;
-}
-
-.content__video-card-title {
-    font-family: Oswald;
-    font-size: 30px;
-    text-transform: uppercase;
-    color:#000;
-}
-
-
