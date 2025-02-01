@@ -7,7 +7,6 @@
 }
 
 .content {
-    margin-top: 240px;
     height: auto;
     display: grid;
     grid-template-columns: 63% 32%;
