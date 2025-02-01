@@ -6,7 +6,8 @@
 }
 
 .content {
-    height: 750px;
+    height: 100%;
+    margin-top: 133px;
     display: grid;
     grid-template-columns: 63% 32%;
     grid-template-areas: "result content__details";
