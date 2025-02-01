@@ -1,13 +1,12 @@
 .page {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 600px;
 }
 
 .content {
-    background-color: aquamarine;
+    margin-top: 305px;
     height: 100%;
-    margin-top: 25.5%;
     display: grid;
     grid-template-columns: 63% 32%;
     grid-template-areas: "result content__details";
