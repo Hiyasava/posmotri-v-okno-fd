@@ -2,27 +2,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .content {
-    background-color: blue;
     display: grid;
     grid-template-columns: 63% 32%;
     width: 100%;
     padding: 30px;
-    gap: 25px;
+    padding-right: 0;
+    gap: 5px;
 }
 
 .result {
-    background-color: brown;
     height: 100%;
     width: 100%;
-    padding-right: 5px;
+    padding-right: 25px;
 }
 
 .result__video-container {
-    padding-top: 150px;
+    padding-top: 130px;
     width: 100%;
+    height: 510px;
 }
 
 .search-form {
@@ -32,19 +33,20 @@
 }
 
 .result__video {
-    width: 100%;
-}
-
-.content__details {
-    padding-top: 20px;
-    background-color: aqua;
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
+.content__details {
+    padding-top: 20px;
+    min-width: 399px;
+    height: 100%;
+}
+
 .content__video-card-thumbnail {
-    width: 100px;
-    height: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 .title {
@@ -52,6 +54,7 @@
     font-size: 75px;
     text-transform: uppercase;
     line-height: 68px;
+    margin-top: 35px;
 }
 
 .search-form__label {
@@ -90,6 +93,7 @@
 }
 
 .search-form__fieldset {
+    padding-top: 25px;
     border: none;
 }
 
@@ -105,15 +109,93 @@
     border: 1px solid #fff;
     font-family: FiraSans;
     font-size: 18px;
-    margin-top: 18px;
+    margin-top: 40px;
     width: 195px;
     height: 35px;
 }
 
-.content__list-container {
-    height: 100%;
+.content__list-item {
+    min-width: 400px;
+    min-height: 100px;
+    margin-bottom: 20px;
 }
 
-.content__list {
+.content__list-container {
+    height: 300px;
+    margin-top: 5px;
     overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.content__details {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.title .content__accent {
+    line-height: 70.5px;
+    color: #545050;
+}
+
+.content__video-card {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content__card-link {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+.content__video-card-title {
+    font-family: Oswald;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#000;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 4px;
+}
+
+.search-form__label {
+    min-height: 27px;
+    display: flex;
+    flex-direction: row;
+}
+.search-form__textfield {
+    font-size: 18px;
+    font-family: FiraSans;
+    border: none;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    min-width: 225px;
+    height: 100%;
+    background-color: transparent;
+}
+
+.content__video-card-description {
+    margin-top: 5px;
+    font-family: "FiraSans";
+    font-size: 18px;
+    color: #fff;
+    line-height: 16.2px;
+}
+
+.more-button {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    font-family: "FiraSans";
+    font-size: 18px;
+    width: 100%;
+    height: 38px;
+}
+
+.search-form__label-text {
+    font-family: "FiraSans";
+    font-size: 18px;
+    margin-left: 5px;
 }
