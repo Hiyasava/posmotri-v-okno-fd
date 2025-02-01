@@ -6,8 +6,6 @@
 }
 
 .content {
-    background-color: aqua;
-    margin-top: 410px;
     height: 750px;
     display: grid;
     grid-template-columns: 63% 32%;
