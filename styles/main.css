@@ -13,7 +13,6 @@
     grid-template-areas: "result content__details";
     width: 100%;
     padding: 30px;
-    padding-left: 37px;
     padding-right: 0;
     gap: 10px;
 }
