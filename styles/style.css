@@ -60,3 +60,9 @@ ol {
   overflow: hidden;
   clip: rect(0 0 0 0);
 }
+
+.search-form__textfield {
+  font-family: "FiraSans", sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
