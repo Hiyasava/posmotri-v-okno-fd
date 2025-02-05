@@ -1,26 +1,26 @@
 @font-face {
-    font-family: FiraSans;
-    src:
-      url(./FiraSansCondensed-Regular.woff2) format('woff2'),
-      url(./FiraSansCondensed-Regular.woff2) format('woff');
-    font-weight: normal;
+font-family: FiraSans;
+font-weight: normal;
     font-display: swap;
-  }
-  
-  @font-face {
-    font-family: FiraSans;
     src:
-      url(./FiraSansCondensed-Bold.woff2) format('woff2'),
-      url(./FiraSansCondensed-Bold.woff) format('woff');
+        url(./FiraSansCondensed-Regular.woff2) format('woff2'),
+        url(./FiraSansCondensed-Regular.woff2) format('woff');
+}
+
+@font-face {
+font-family: FiraSans;
+    src:
+        url(./FiraSansCondensed-Bold.woff2) format('woff2'),
+        url(./FiraSansCondensed-Bold.woff) format('woff');
     font-weight: bold;
     font-display: swap;
-  }
+}
 
 @font-face {
 font-family: Oswald;
-src:
-    url(./Oswald-Bold.woff2) format('woff2'),
-    url(./Oswald-Bold.woff) format('woff');
-font-weight: normal;
-font-display: swap;
+    src:
+        url(./Oswald-Bold.woff2) format('woff2'),
+        url(./Oswald-Bold.woff) format('woff');
+        font-weight: normal;
+        font-display: swap;
 } 
