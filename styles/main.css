@@ -187,7 +187,6 @@
   font-size: 18px;
   font-family: FiraSans;
   border: none;
-  border: none;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
   min-width: 225px;
@@ -267,11 +266,6 @@ input[type="checkbox"]:disabled + .search-form__pseudo-checkbox {
 }
 
 .button:focus {
-  outline: 1px solid rgb(255, 255, 255);
-  outline-offset: 1px;
-}
-
-.search-form__label:focus {
   outline: 1px solid rgb(255, 255, 255);
   outline-offset: 1px;
 }
