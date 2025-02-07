@@ -284,7 +284,7 @@ ol {
   overflow-y: hidden;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+.search-form__pseudo-checkbox::after {
   content: "";
   width: 15px;
   height: 15px;
@@ -295,8 +295,9 @@ ol {
   transform: translate(-50%, -50%);
 }
 
-input[type="checkbox"]:disabled + .search-form__pseudo-checkbox {
-  background-color: transparent;
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+  width: 0;
+  height: 0;
 }
 
 .search-form__textfield:active {
