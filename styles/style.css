@@ -169,10 +169,9 @@ ol {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
-  background-image: url("../images/active_button.svg"); /* Путь к изображению для активного состояния */
+  background-image: url("../images/active_button.svg");
   background-position: center;
-  background-size: cover; /* Или 'contain', в зависимости от ваших нужд */
-  background-repeat: no-repeat; /* Чтобы избежать повторения изображения */
+  background-repeat: no-repeat;
   background-size: 18px 18px;
 }
 
