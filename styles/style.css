@@ -168,6 +168,14 @@ ol {
   position: relative;
 }
 
+.search-form__checkbox:checked + .search-form__pseudo-checkbox {
+  background-image: url("../images/active_button.svg"); /* Путь к изображению для активного состояния */
+  background-position: center;
+  background-size: cover; /* Или 'contain', в зависимости от ваших нужд */
+  background-repeat: no-repeat; /* Чтобы избежать повторения изображения */
+  background-size: 18px 18px;
+}
+
 .search-form__fieldset {
   padding-top: 20px;
   border: none;
@@ -284,21 +292,6 @@ ol {
   overflow-y: hidden;
 }
 
-.search-form__pseudo-checkbox::after {
-  content: "";
-  width: 15px;
-  height: 15px;
-  background-color: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  width: 0;
-  height: 0;
-}
 
 .search-form__textfield:active {
   border: 1px solid #fff;
