@@ -239,6 +239,7 @@ ol {
 }
 
 .content__card-link:hover {
+  color: currentColor;
   text-decoration: underline;
 }
 
