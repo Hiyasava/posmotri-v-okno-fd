@@ -1,19 +1,18 @@
 @font-face {
-font-family: FiraSans;
-font-weight: normal;
-    font-display: swap;
-    src:
-        url(./FiraSansCondensed-Regular.woff2) format('woff2'),
-        url(./FiraSansCondensed-Regular.woff2) format('woff');
+    font-family: 'FiraSans';
+    font-weight: normal; /* Укажите нормальный вес шрифта */
+    font-style: normal; /* Укажите стиль шрифта, если это необходимо */
+    font-display: swap; /* Опционально, для улучшения загрузки шрифта */
+    src: url('./FiraSansCondensed-Regular.woff2') format('woff2'); /* Убедитесь, что файл существует */
 }
 
+/* Если у вас есть полужирный вариант шрифта, добавьте его так: */
 @font-face {
-font-family: FiraSans;
-    src:
-        url(./FiraSansCondensed-Bold.woff2) format('woff2'),
-        url(./FiraSansCondensed-Bold.woff) format('woff');
-    font-weight: bold;
-    font-display: swap;
+    font-family: 'FiraSans';
+    font-weight: bold; /* Укажите полужирный вес шрифта */
+    font-style: normal; /* Укажите стиль шрифта, если это необходимо */
+    font-display: swap; /* Опционально */
+    src: url('./FiraSansCondensed-Bold.woff2') format('woff2'); /* Убедитесь, что файл существует */
 }
 
 @font-face {
