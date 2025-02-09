@@ -332,7 +332,6 @@ ol {
 
 .content__card-link:focus {
   outline: 1px solid rgb(255, 255, 255);
-  outline-offset: -4px;
 }
 
 .content__card-link_current {
