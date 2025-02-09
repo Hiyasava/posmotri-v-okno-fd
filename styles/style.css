@@ -266,6 +266,7 @@ ol {
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
   height: 100%;
   width: 100%;
@@ -338,6 +339,3 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link {
-  display: block;
-}
