@@ -122,7 +122,7 @@ ol {
 .content__details {
   grid-area: content__details;
   width: 399px;
-  height: 530px;
+  height: 535px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -139,7 +139,8 @@ ol {
   font-weight: 800;
   font-size: 75px;
   text-transform: uppercase;
-  line-height: 68px;
+  line-height: 72px;
+  word-spacing: -7px;
 }
 
 .search-form__checkbox-list {
@@ -181,25 +182,25 @@ ol {
 }
 
 .search-form__fieldset {
-  padding-top: 15px;
+  padding-top: 20px;
   border: none;
   margin-right: 40px;
 }
 
 .search-form__fieldset-title {
+  align-self: start;
   margin-bottom: 5px;
+  word-spacing: -2px;
   font-family: "FiraSans", sans-serif;
   font-size: 18px;
 }
 
 .search-form__submit-button {
-  position: relative;
   outline: none;
   cursor: pointer;
-  margin-top: 35px;
-  width: 195px;
+  margin-top: 40px;
+  width: 192px;
   height: 35px;
-  z-index: 1;
 }
 
 .button {
@@ -211,11 +212,11 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   overflow: auto;
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin-top: 5px;
 }
 
 .content__list {
@@ -228,13 +229,15 @@ ol {
 .content__list-item {
   width: 390px;
   min-height: 100px;
-  margin-bottom: 32px;
+  margin-bottom: 23px;
 }
 
 .more-button {
+  margin-top: 29px;
   line-height: 32px;
   width: 100%;
   height: 100px;
+  margin-bottom: 0;
 }
 
 .content__list-item:last-child {
@@ -251,7 +254,6 @@ ol {
 }
 
 .title .content__accent {
-  word-spacing: -45px;
   line-height: 70.5px;
   color: #545050;
 }
@@ -270,20 +272,20 @@ ol {
 }
 
 .content__video-card-title {
-  width: 95%;
+  width: 96%;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   text-transform: uppercase;
   color: #fff;
   line-height: 30px;
-  margin-top: 4px;
+  margin-top: 3px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .content__video-card-description {
-  margin-top: 5px;
+  margin-top: 3px;
   font-family: FiraSans, sans-serif;
 
   font-size: 18px;
@@ -334,4 +336,8 @@ ol {
 
 .content__card-link_current {
   background-color: #545050;
+}
+
+.content__card-link {
+  display: block;
 }
